@@ -30,7 +30,8 @@ export default async function RootLayout({ children }) {
         <Layout
           navbar={navbar}
           pageMap={await getPageMap()}
-          docsRepositoryBase="https://github.com/teerakanokt/toram/tree/main"
+          editLink="Edit this page on GitHub"
+          docsRepositoryBase="https://github.com/teerakanotk/toram/tree/main"
           sidebar={{ defaultMenuCollapseLevel: 1 }}
           footer={footer}
         >
