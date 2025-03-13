@@ -10,10 +10,15 @@ export const metadata = {
   },
 };
 
-const navbar = <Navbar logo={<b>Toram</b>} />;
+const navbar = (
+  <Navbar
+    logo={<b>Toram Wiki</b>}
+    projectLink="https://github.com/teerakanotk/toram"
+  />
+);
 const footer = (
   <Footer>
-    <p className="mt-6 text-xs">© {new Date().getFullYear()} Toram Online.</p>
+    <p className="mt-6 text-xs">© {new Date().getFullYear()} Toram Wiki.</p>
   </Footer>
 );
 

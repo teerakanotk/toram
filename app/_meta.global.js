@@ -1,15 +1,14 @@
-// import type { MetaRecord } from "nextra";
-
 /* eslint-disable import/no-anonymous-default-export */
 const GUIDE = {
   skill: "",
 };
 
-const SKILL = {
-  "weapon-skill": "",
-  "assist-skill": "",
-  "buff-skill": "",
-  "other-skill": "",
+const ITEM = {
+  dye: "",
+  consumable: "",
+  registlet: "",
+  crysta: "",
+  material: "",
 };
 
 const EQUIPMENT = {
@@ -29,14 +28,6 @@ const EQUIPMENT = {
   armor: "",
   addittional: "",
   special: "",
-};
-
-const ITEM = {
-  dye: "",
-  consumable: "",
-  registlet: "",
-  crysta: "",
-  material: "",
 };
 
 const MONSTER = {
