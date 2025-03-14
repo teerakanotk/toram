@@ -1,0 +1,42 @@
+---
+asIndexPage: true
+---
+
+# Production
+
+import { Cards } from "nextra/components";
+import { GiMetalBar } from "react-icons/gi";
+import { GiRolledCloth } from "react-icons/gi";
+import { GiShiningClaw } from "react-icons/gi";
+import { GiWoodPile } from "react-icons/gi";
+import { GiHerbsBundle } from "react-icons/gi";
+import { FaDotCircle } from "react-icons/fa";
+
+<Cards>
+  <Cards.Card
+    icon={<GiMetalBar />}
+    title="Metal"
+    href="/item/production/metal"
+  />
+  <Cards.Card
+    icon={<GiRolledCloth />}
+    title="Cloth"
+    href="/item/production/cloth"
+  />
+  <Cards.Card
+    icon={<GiShiningClaw />}
+    title="Beast"
+    href="/item/production/beast"
+  />
+  <Cards.Card icon={<GiWoodPile />} title="Wood" href="/item/production/wood" />
+  <Cards.Card
+    icon={<GiHerbsBundle />}
+    title="Medicine"
+    href="/item/production/medicine"
+  />
+  <Cards.Card
+    icon={<FaDotCircle />}
+    title="Mana"
+    href="/item/production/mana"
+  />
+</Cards>

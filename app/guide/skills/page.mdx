@@ -1,0 +1,26 @@
+---
+asIndexPage: true
+---
+
+# Skills
+
+import { Cards } from "nextra/components";
+import { LuSword } from "react-icons/lu";
+import { FaShield } from "react-icons/fa6";
+import { FaHandHoldingMedical } from "react-icons/fa6";
+import { GiSwordSmithing } from "react-icons/gi";
+
+<Cards>
+  <Cards.Card icon={<LuSword />} title="Weapon" href="/guide/skills/weapon" />
+  <Cards.Card icon={<FaShield />} title="Buff" href="/guide/skills/buff" />
+  <Cards.Card
+    icon={<FaHandHoldingMedical />}
+    title="Assist"
+    href="/guide/skills/assist"
+  />
+  <Cards.Card
+    icon={<GiSwordSmithing />}
+    title="Other"
+    href="/guide/skills/other"
+  />
+</Cards>
