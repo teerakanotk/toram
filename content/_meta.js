@@ -1,10 +1,13 @@
 /* eslint-disable import/no-anonymous-default-export */
 export default {
   index: "",
-  docs: {
-    title: "Documentation",
+  guide: {
+    title: "Guide",
   },
-  login: {
-    type: "page",
+  equipment: {
+    title: "Equipment",
+  },
+  "skill-list": {
+    title: "Skill List",
   },
 };
